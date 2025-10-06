@@ -1,4 +1,4 @@
-RecordCount: 64
+RecordCount: 142
 
 console load 0
    1
@@ -16,7 +16,7 @@ console load 0
   15,R
   20,R
 Repeat, 3
-   5,J,G
+   4,J,G
 EndRepeat
   10,R
   15,R,J
@@ -37,4 +37,55 @@ Repeat, 3
    8,J,G
    1,G
 EndRepeat
+  30,R
+   5,R,J
+  30,R
+  10,R,J
+  20,R
+Repeat, 4
+   7,J,G
+   1,G
+EndRepeat
+  40,R
+   4
+  24,R,J
+   1,G
+Repeat, 4
+  10,J,G
+   1,G
+EndRepeat
+   3,R,J,G
   10,R
+  20,R,J
+  40,R
+#lvl_2
+  20,R
+  20,R,J
+  10,R
+  20,R,J
+  10,R
+  20,R,J
+  30,R
+   1,S
+   1,D,O
+  34
+  70,R
+  20,R
+   5
+Repeat, 28
+   5,R,J
+   5,R
+EndRepeat
+  20,R,J
+  20,R
+Repeat, 15
+   5,R,J
+   5,R
+EndRepeat
+  10,R
+  35,R,J
+   5,R
+  50,R,J
+   1,S
+   1,D,J
+ 232
